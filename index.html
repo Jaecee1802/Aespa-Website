@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-background-grey-lighter">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,27 @@
     <!-- BULMA -->
 </head>
 <body>
-    <div class="container">
-        
-    </div>
+    <nav class="navbar is-white">
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                <img src="image assets/logo.png" alt="Aespa Logo" style="max-height: 80px;" class="py-2 px-2 ml-2">
+            </div>
+            <!-- Mobile -->
+             <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+             </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end mr-6">
+                <a href="#" class="navbar-item has-text-grey-dark">Home</a>
+                <a href="#" class="navbar-item has-text-grey-dark">Members</a>
+                <a href="#" class="navbar-item has-text-grey-dark">About</a>
+            </div>
+        </div>
+    </nav>
+    <script src="js/index.js"></script>
 </body>
 </html>

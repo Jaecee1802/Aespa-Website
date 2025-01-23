@@ -20,8 +20,20 @@
         }
         
         .aespa-awards{
-            padding-bottom: 1600px;
+            padding-bottom: 400px;
             background-color: black;
+        }
+
+        #award-title{
+            margin-top: 100px;
+        }
+
+        #desc-aespa{
+           text-align: center;
+        }
+        .aespa-cover-photo{
+            background-position: top;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
@@ -49,20 +61,28 @@
     </nav>
 
     <div class="aespa-cover-photo">
-        <img src="imageassets/aespahomepagecoverimage.jpg" alt="Aespa-Whiplash" >
+        <img src="imageassets/aespahomepagecoverimage.jpg" alt="Aespa-Whiplash">
     </div>
 
     <div class="about-aespa">
         <h1 class="has-text-white my-6 is-size-1-touch" id="About-title">WE ARE aespa!</h1>
         <div class="section">
-            <p>aespa is a K-pop girl group from SM Entertainment that combines real members with virtual counterparts to create a unique fan experience. 
+            <p id="desc-aespa">aespa is a K-pop girl group from SM Entertainment that combines real members with virtual counterparts to create a unique fan experience. 
             Since their debut in 2020, they’ve captivated audiences with their innovative music and futuristic style.</p>
         </div>
     </div>
 
     <div class="aespa-awards">
         <div class="section">
-            <h1 class="has-text-white is-size-1 px-5">Awards won by aespa.</h1>
+            <h1 class="has-text-white is-size-1 px-5 py-5" id="award-title">Awards won by aespa (as of 2024).</h1>
+        </div>
+
+        <div class="container">
+            <p id="MAMA-Awards" class="has-text-white is-size-2">2024 MAMA Awards Song of the Year (Supernova).</p>
+            <p><br></p>
+            <p id="Melon-Awards" class="has-text-white is-size-2">2024 Melon Music Awards Album, Artist and Song of the Year.</p>
+            <p><br></p>
+            <p id="FACT-Awards" class="has-text-white is-size-2">2024 THE FACT MUSIC AWARDS Listeners' Choice award.</p>
         </div>
     </div>
     <script src="js/index.js"></script>

@@ -44,6 +44,11 @@
     animation-range: entry 0 cover 40%;
 }
 
+#title-meet-aespa{
+    font-family: "Favorit Medium", sans-serif;
+    font-size: 80px;
+}
+
 @keyframes appearImage{
     from{
         opacity: 0;

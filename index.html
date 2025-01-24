@@ -16,7 +16,6 @@
             padding: 20vh;
             background-position: center;
             background-repeat: no-repeat;
-            margin-top: -10px;
         }
         
         .aespa-awards{
@@ -34,6 +33,14 @@
         .aespa-cover-photo{
             background-position: top;
             background-repeat: no-repeat;
+            background-image: url(imageassets/aespahomepagecoverimage.jpg);
+            padding-bottom: 1000px;
+            animation: appearImage 1.5s ease-in-out;
+        }
+
+        .aespa-photo-cover-2{
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)10%), url(imageassets/aespa-whiplash-all-members-unforgettable-hd-wallpaper-uhdpaper.com-375@2@b.jpg);
+            padding-bottom: 800px;
         }
     </style>
 </head>
@@ -61,7 +68,7 @@
     </nav>
 
     <div class="aespa-cover-photo">
-        <img src="imageassets/aespahomepagecoverimage.jpg" alt="Aespa-Whiplash">
+        <!-- <img src="imageassets/aespahomepagecoverimage.jpg" alt="Aespa-Whiplash" style="object-fit: cover;"> -->
     </div>
 
     <div class="about-aespa">
@@ -74,17 +81,21 @@
 
     <div class="aespa-awards">
         <div class="section">
-            <h1 class="has-text-white is-size-1 px-5 py-5" id="award-title">Awards won by aespa (as of 2024).</h1>
+            <h1 class="has-text-white is-size-1 px-5 py-5 is-size-2-touch" id="award-title">Awards won by aespa (as of 2024).</h1>
         </div>
 
-        <div class="container">
-            <p id="MAMA-Awards" class="has-text-white is-size-2">2024 MAMA Awards Song of the Year (Supernova).</p>
+        <div class="container pl-5">
+            <p id="MAMA-Awards" class="has-text-white is-size-2 is-size-4-touch">2024 MAMA Awards Song of the Year (Supernova).</p>
             <p><br></p>
-            <p id="Melon-Awards" class="has-text-white is-size-2">2024 Melon Music Awards Album, Artist and Song of the Year.</p>
+            <p id="Melon-Awards" class="has-text-white is-size-2 is-size-4-touch">2024 Melon Music Awards Album, Artist and Song of the Year.</p>
             <p><br></p>
-            <p id="FACT-Awards" class="has-text-white is-size-2">2024 THE FACT MUSIC AWARDS Listeners' Choice award.</p>
+            <p id="FACT-Awards" class="has-text-white is-size-2 is-size-4-touch">2024 THE FACT MUSIC AWARDS Listeners' Choice award.</p>
         </div>
     </div>
+
+    <div class="aespa-photo-cover-2">
+    </div>
+
     <script src="js/index.js"></script>
 </body>
 </html>

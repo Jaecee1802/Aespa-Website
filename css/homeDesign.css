@@ -44,6 +44,16 @@
     animation-range: entry 0 cover 40%;
 }
 
+@keyframes appearImage{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 @keyframes appearAwards{
     from{
         opacity: 0;

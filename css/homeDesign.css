@@ -49,6 +49,27 @@
     font-size: 80px;
 }
 
+#members-title{
+    font-family: "Favorit Medium", sans-serif;
+    text-align: center;
+}
+
+.aespa-karina, .aespa-giselle, .aespa-ningning, .aespa-winter{
+    border-top: 2px solid black;
+    display: flex;
+}
+
+.aespa-ningning{
+    border-bottom: 2px solid black;
+}
+
+.karina-info p, .giselle-info p, .aespa-winter p, .aespa-ningning p{
+    font-family: "Favorit Medium", sans-serif;
+}
+
+#member-name{
+    font-family: "Favorit Medium", sans-serif;
+}
 @keyframes appearImage{
     from{
         opacity: 0;

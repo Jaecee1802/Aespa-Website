@@ -67,8 +67,12 @@
     font-family: "Favorit Medium", sans-serif;
 }
 
-#member-name{
+#member-name, #aespa-title-about{
     font-family: "Favorit Medium", sans-serif;
+}
+
+#aespa-title-about{
+    font-weight: 700;
 }
 
 @keyframes appearMemberTitle{

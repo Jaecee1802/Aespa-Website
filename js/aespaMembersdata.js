@@ -70,6 +70,7 @@ const ningningInfo = `{
     ]
 }`;
 
+//NINGNING INFORMATION
 const ningObject = JSON.parse(ningningInfo);
 document.getElementById("ningrealname").innerHTML = `Real Name:  ${ningObject.ningning[0].realName}`;
 document.getElementById("ningAge").innerHTML = `Age: ${ningObject.ningning[0].age}`;
